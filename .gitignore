@@ -1,0 +1,26 @@
+# Python önbellek ve sanal ortamlar
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# Ham veri seti ve makineye özel mutlak yol içeren bölünme CSV'leri
+data/alzheimers-multiclass-dataset-equal-and-augmented/
+data/splits/
+
+# Büyük model ağırlıkları, öznitelik matrisleri ve joblib artefaktları
+outputs/checkpoints/
+outputs/features/
+outputs/hybrid_models/*.joblib
+*.pt
+*.pth
+*.npz
+
+# Geçici ve IDE dosyaları
+.vscode/
+.idea/
+*.log
+.DS_Store
+Thumbs.db
