@@ -1,0 +1,7 @@
+﻿Model,Accuracy (%),Acc_NonDemented (%),Acc_VeryMildDemented (%),Acc_MildDemented (%),Acc_ModerateDemented (%),Macro_Precision (%),Macro_Recall (%),Macro_F1 (%),Macro_AUC,Train_Time_s,Inference_Time_s
+ResNet50,99.88,99.79,99.76,100.0,100.0,99.89,99.89,99.89,1.0,3335.9,15.7759
+DenseNet121,99.98,99.95,100.0,100.0,100.0,99.99,99.99,99.99,1.0,4913.88,16.2696
+DenseNet121+PCA+SVM,99.98,100.0,100.0,100.0,99.93,99.99,99.98,99.99,1.0,1765.52,0.5451
+DenseNet121+PCA+XGBoost,99.95,99.95,99.88,100.0,100.0,99.95,99.96,99.96,1.0,581.61,0.0223
+DenseNet121+Fisher+SVM,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,1.0,277.85,0.0752
+DenseNet121+Fisher+XGBoost,99.97,100.0,99.94,99.93,100.0,99.97,99.97,99.97,1.0,370.07,0.0083

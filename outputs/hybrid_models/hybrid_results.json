@@ -1,0 +1,74 @@
+{
+  "base_cnn_model": "densenet121",
+  "base_cnn_display": "DenseNet121",
+  "models": {
+    "DenseNet121+PCA+SVM": {
+      "display_name": "DenseNet121+PCA+SVM",
+      "selector": "PCA",
+      "n_selected_features": 155,
+      "best_params": {
+        "C": 1.0,
+        "gamma": 0.001,
+        "kernel": "rbf"
+      },
+      "cv_best_f1_macro": 0.9989474631366401,
+      "val_acc": 0.9989393939393939,
+      "test_acc": 0.9998484848484849,
+      "train_time_sec": 1765.5228177999961,
+      "inference_time_sec": 0.5450880999997025,
+      "artifact_path": "C:\\Users\\PC\\Downloads\\Medikal\\outputs\\hybrid_models\\DenseNet121_PCA_SVM.joblib"
+    },
+    "DenseNet121+PCA+XGBoost": {
+      "display_name": "DenseNet121+PCA+XGBoost",
+      "selector": "PCA",
+      "n_selected_features": 155,
+      "best_params": {
+        "colsample_bytree": 0.8,
+        "learning_rate": 0.03,
+        "max_depth": 5,
+        "n_estimators": 300,
+        "subsample": 1.0
+      },
+      "cv_best_f1_macro": 0.999970106892521,
+      "val_acc": 0.9995454545454545,
+      "test_acc": 0.9995454545454545,
+      "train_time_sec": 581.6062107000034,
+      "inference_time_sec": 0.022251099995628465,
+      "artifact_path": "C:\\Users\\PC\\Downloads\\Medikal\\outputs\\hybrid_models\\DenseNet121_PCA_XGBoost.joblib"
+    },
+    "DenseNet121+Fisher+SVM": {
+      "display_name": "DenseNet121+Fisher+SVM",
+      "selector": "Fisher",
+      "n_selected_features": 64,
+      "best_params": {
+        "C": 50.0,
+        "gamma": "scale",
+        "kernel": "rbf"
+      },
+      "cv_best_f1_macro": 0.9999064088204405,
+      "val_acc": 0.9996969696969698,
+      "test_acc": 1.0,
+      "train_time_sec": 277.8497242000012,
+      "inference_time_sec": 0.07515330000023823,
+      "artifact_path": "C:\\Users\\PC\\Downloads\\Medikal\\outputs\\hybrid_models\\DenseNet121_Fisher_SVM.joblib"
+    },
+    "DenseNet121+Fisher+XGBoost": {
+      "display_name": "DenseNet121+Fisher+XGBoost",
+      "selector": "Fisher",
+      "n_selected_features": 64,
+      "best_params": {
+        "colsample_bytree": 1.0,
+        "learning_rate": 0.1,
+        "max_depth": 3,
+        "n_estimators": 200,
+        "subsample": 0.8
+      },
+      "cv_best_f1_macro": 0.9998804304078283,
+      "val_acc": 0.9992424242424243,
+      "test_acc": 0.9996969696969698,
+      "train_time_sec": 370.0699945000015,
+      "inference_time_sec": 0.008295499996165745,
+      "artifact_path": "C:\\Users\\PC\\Downloads\\Medikal\\outputs\\hybrid_models\\DenseNet121_Fisher_XGBoost.joblib"
+    }
+  }
+}

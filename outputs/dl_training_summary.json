@@ -1,0 +1,26 @@
+{
+  "best_cnn_model": "densenet121",
+  "best_cnn_display_name": "DenseNet121",
+  "models": {
+    "resnet50": {
+      "model_name": "resnet50",
+      "display_name": "ResNet50",
+      "checkpoint_path": "C:\\Users\\PC\\Downloads\\Medikal\\outputs\\checkpoints\\resnet50_best.pt",
+      "history_path": "C:\\Users\\PC\\Downloads\\Medikal\\outputs\\checkpoints\\resnet50_history.csv",
+      "best_val_loss": 0.0018872013679962643,
+      "best_val_acc": 0.9990909090909091,
+      "best_epoch": 18,
+      "train_time_sec": 3335.9026072999986
+    },
+    "densenet121": {
+      "model_name": "densenet121",
+      "display_name": "DenseNet121",
+      "checkpoint_path": "C:\\Users\\PC\\Downloads\\Medikal\\outputs\\checkpoints\\densenet121_best.pt",
+      "history_path": "C:\\Users\\PC\\Downloads\\Medikal\\outputs\\checkpoints\\densenet121_history.csv",
+      "best_val_loss": 0.000587901890547824,
+      "best_val_acc": 0.9998484848484849,
+      "best_epoch": 23,
+      "train_time_sec": 4913.883659400002
+    }
+  }
+}
